@@ -94,6 +94,13 @@ HVAC_MODE_SETS = {
         HVACMode.COOL: "cold",
         HVACMode.AUTO: "auto",
     },
+    "Off/Cool/Heat/Dry/Fan": {
+        HVACMode.OFF: "off",
+        HVACMode.COOL: "cool", 
+        HVACMode.HEAT: "heat",
+        HVACMode.DRY: "dry",
+        HVACMode.FAN_ONLY: "fan_only",
+    },
     "Cold/Dehumidify/Hot": {
         HVACMode.HEAT: "hot",
         HVACMode.DRY: "dehumidify",
@@ -133,7 +140,12 @@ HVAC_FAN_MODE_SETS = {
         FAN_MEDIUM: "middle",
         FAN_HIGH: "high",
         FAN_TOP: "strong",
-    }
+    },
+    "1/2/3": {
+        FAN_LOW: "1",
+        FAN_MEDIUM: "2", 
+        FAN_HIGH: "3",
+    },
 }
 HVAC_SWING_MODE_SETS = {
     "True/False": {
